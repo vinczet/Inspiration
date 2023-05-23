@@ -1,0 +1,16 @@
+POST https://localhost:7188/auth/login
+Content-Type: application/json
+
+{
+	"email": "han.solo@starwars.com",
+	"password": "nottoostrong"
+}
+
+###
+POST https://localhost:7188/auth/login
+Content-Type: application/json
+
+{
+	"email": "vinczetamas@hotmail.com",
+	"password": "stronger"
+}

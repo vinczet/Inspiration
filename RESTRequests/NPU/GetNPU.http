@@ -1,0 +1,22 @@
+@npu1Id=dc3610be-2740-4dd4-9037-794d534a2d4b
+@npu2Id=41881b3d-dc3d-4979-8eb1-97cf718cec9d
+@npu3Id=f6657e08-9e78-44a1-8cd5-81605aa4a9e9
+
+@user1Id=5dc2e723-8682-4d18-b343-9773cecb518a
+@user2Id=a0d32145-1545-434a-a254-817775f77139
+
+@host=https://localhost:7188
+@token1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZGMyZTcyMy04NjgyLTRkMTgtYjM0My05NzczY2VjYjUxOGEiLCJuYW1lIjoiSGFuIFNvbG8iLCJqdGkiOiJmZGE4MDZmMC1mMjM4LTQ1ZjAtODVmZC05MWM2MDA3MjY1ZmUiLCJleHAiOjE2ODQ5NTEyOTMsImlzcyI6Ikluc3BpcmF0aW9uIiwiYXVkIjoiSW5zcGlyYXRpb24ifQ.Mvgs3ABVqph8a73wQm_Rznkj6FrGHZ7xj6IO7zVUPC4
+@token2=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhMGQzMjE0NS0xNTQ1LTQzNGEtYTI1NC04MTc3NzVmNzcxMzkiLCJuYW1lIjoiVmluY3plIFRhbcOhcyIsImp0aSI6ImQ5ZTZjYmQxLWM4N2YtNGM3MC04YjViLTAwYTM1YjVmZDgyYSIsImV4cCI6MTY4NDk1MTMzMywiaXNzIjoiSW5zcGlyYXRpb24iLCJhdWQiOiJJbnNwaXJhdGlvbiJ9.s9kctEc_vUDFm_pNQJn68CrliuLTv20eX5cZb6yDg08
+GET {{host}}/npu/{{npu1Id}}
+Authorization: Bearer {{token2}}
+
+###
+
+GET {{host}}/npu/{{npu3Id}}
+Authorization: Bearer {{token2}}
+
+###
+
+GET {{host}}/npu/{{npu3Id}}
+Authorization: Bearer {{token1}}

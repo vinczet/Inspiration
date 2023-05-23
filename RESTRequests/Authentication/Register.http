@@ -1,0 +1,8 @@
+POST https://localhost:7188/auth/register
+Content-Type: application/json
+
+{
+	"name": "Tamás Vincze",
+	"email": "vinczetamass@hotmail.com",
+	"password": "pwd"
+}
